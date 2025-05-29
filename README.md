@@ -94,10 +94,4 @@ Ex:
 
 ## 📜 Licença
 
-É uma boa prática adicionar uma licença. A licença MIT é comum para projetos de portfólio, pois é bem permissiva.
-Ex: `Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.`
-(Você precisará criar um arquivo `LICENSE` no seu repositório com o texto da licença MIT).
 
-## 📞 Contato (Opcional)
-
-Seu nome/link para LinkedIn ou e-mail, se quiser.
