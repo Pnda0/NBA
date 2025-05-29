@@ -1,12 +1,10 @@
-# Título do Projeto (Ex: Análises de Estatísticas da NBA com Python e nba_api)
+# Análises de Estatísticas da NBA com Python e nba_api
 
-Uma breve descrição do que o projeto faz. Por exemplo: 
-Este repositório contém scripts Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA, utilizando a biblioteca `nba_api`. O objetivo é demonstrar como extrair dados ricos da NBA e realizar análises comuns no basquete.
+Este repositório contém scripts Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA, utilizando a biblioteca `nba_api`. O objetivo é demonstrar como extrair dados ricos da NBA e realizar análises comuns no basquete em PT-BR.
 
-## 🎯 Motivação (Opcional, mas legal de ter)
+## 🎯 Motivação 
 
-Explique rapidamente por que você criou este projeto. 
-Ex: "Este projeto foi desenvolvido como parte do meu portfólio de Análise de Dados/BI, com o intuito de praticar a coleta de dados via API, manipulação de dados com Pandas e criação de visualizações."
+Este projeto foi desenvolvido como parte do meu portfólio de Análise de Dados/BI, com o intuito de praticar a coleta de dados via API, manipulação de dados com Pandas e criação de visualizações.
 
 ## ✨ Funcionalidades / Análises Implementadas
 
@@ -15,7 +13,6 @@ Liste as principais análises que seus scripts realizam. Isso ajuda o usuário a
 * Comparação de eficiência de diferentes quintetos (lineups).
 * Geração e análise de "shot charts" para visualizar zonas de arremesso.
 * Cálculo de correlação entre diferentes estatísticas de time e vitórias.
-* [Adicione outras análises que você implementou]
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -23,7 +20,6 @@ Liste as principais análises que seus scripts realizam. Isso ajuda o usuário a
 * nba_api (para acesso aos dados da NBA)
 * Pandas (para manipulação de dados)
 * Matplotlib / Seaborn (para visualização de dados)
-* [Outras bibliotecas que você usou, ex: Jupyter Notebook se for o caso]
 
 ## ⚙️ Configuração e Instalação
 
