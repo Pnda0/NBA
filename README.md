@@ -31,8 +31,8 @@ Instruções claras para que outra pessoa possa rodar seu projeto.
 
 2.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone https://github.com/Pnda0/NBA.git
+    cd NBA
     ```
 
 3.  **Instale as dependências:**
@@ -53,7 +53,7 @@ Explique a estrutura das pastas (se houver) e como executar os scripts. Para cad
 
 * **Nome do Script:** Ex: `analise_desempenho_jogador.py`
 * **O que ele faz:** Ex: "Este script busca as estatísticas de carreira de um jogador e plota seu desempenho em pontos, rebotes e assistências ao longo das temporadas."
-* **Como configurar (se necessário):** Ex: "Abra o script e altere a variável `NOME_DO_JOGADOR` para o jogador que deseja analisar."
+* **Como configurar (se necessário):** Ex: "Abra o script e altere a variável `jogador` para o jogador que deseja analisar."
 * **Como executar:** Ex: `python analise_desempenho_jogador.py`
 * **Exemplo de Código da Requisição (direto no README ou bem comentado no script):**
 

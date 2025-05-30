@@ -2,13 +2,9 @@ import pandas as pd
 from nba_api.stats.static import teams
 from nba_api.stats.endpoints import CommonTeamRoster
 
-# ---------------------------------------------
-# PARÂMETROS DE ENTRADA - Altere aqui!
-# ---------------------------------------------
-NOME_TIME_ALVO = "Golden State Warriors"
-TEMPORADA_ALVO = "2024-25" # Formato AAAA-AA, ex: "2023-24" para a temporada 2023-2024
-# Lembre-se que a temporada é referida pelo ano que ela termina.
-# ---------------------------------------------
+
+time = "Golden State Warriors"
+temporada = "2024-25" 
 
 def fetch_team_roster(team_name_query, season):
     """
@@ -16,7 +12,6 @@ def fetch_team_roster(team_name_query, season):
     """
     print(f"Buscando elenco para: {team_name_query}, Temporada: {season}...\n")
 
-    # 1. Encontrar o ID do time
     try:
         team_list = teams.find_teams_by_full_name(team_name_query)
         if not team_list: team_list = teams.find_teams_by_nickname(team_name_query)
@@ -34,7 +29,6 @@ def fetch_team_roster(team_name_query, season):
     actual_team_name = team_list[0]['full_name']
     print(f"ID do time {actual_team_name}: {team_id}\n")
 
-    # 2. Fazer a requisição do elenco do time
     try:
         team_roster_endpoint = CommonTeamRoster(team_id=team_id, season=season)
     except Exception as e:
@@ -42,8 +36,6 @@ def fetch_team_roster(team_name_query, season):
         return
 
     try:
-        # O primeiro DataFrame (índice 0) contém os jogadores do elenco.
-        # O segundo DataFrame (índice 1) geralmente contém informações sobre os técnicos.
         roster_df = team_roster_endpoint.get_data_frames()[0]
         coaches_df = team_roster_endpoint.get_data_frames()[1]
     except IndexError:
@@ -64,11 +56,11 @@ def fetch_team_roster(team_name_query, season):
         print(f"\nNenhuma informação de técnicos encontrada para {actual_team_name} na temporada {season}.")
     else:
         print(f"\n--- Comissão Técnica: {actual_team_name} ({season}) ---")
-        colunas_tecnicos = ['COACH_NAME', 'COACH_TYPE', 'COACH_ID'] # Ajuste conforme as colunas disponíveis
+        colunas_tecnicos = ['COACH_NAME', 'COACH_TYPE', 'COACH_ID'] 
         print(coaches_df[[col for col in colunas_tecnicos if col in coaches_df.columns]])
 
 
 if __name__ == "__main__":
     pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', 1000) # Para melhor visualização de tabelas largas
-    fetch_team_roster(NOME_TIME_ALVO, TEMPORADA_ALVO)
+    pd.set_option('display.width', 1000) 
+    fetch_team_roster(time, temporada)
