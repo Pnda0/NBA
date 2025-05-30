@@ -8,11 +8,15 @@ Este projeto foi desenvolvido como parte do meu portfólio de Análise de Dados/
 
 ## ✨ Funcionalidades / Análises Implementadas
 
-Liste as principais análises que seus scripts realizam. Isso ajuda o usuário a entender rapidamente o que ele pode encontrar aqui.
-* Análise de desempenho de jogadores ao longo do tempo.
-* Comparação de eficiência de diferentes quintetos (lineups).
-* Geração e análise de "shot charts" para visualizar zonas de arremesso.
-* Cálculo de correlação entre diferentes estatísticas de time e vitórias.
+Este repositório oferece os seguintes scripts para análise de dados da NBA:
+
+* **Informações de Jogadores (`getPlayerInfo.py`):** Busca e exibe detalhes biográficos e de carreira de um jogador específico.
+* **Estatísticas da Carreira de Jogadores (`getPlayerCareerStats.py`):** Mostra as estatísticas de um jogador temporada por temporada (regular e playoffs).
+* **Mapa de Arremessos de Jogadores (`getPlayerShotChart.py`):** Coleta dados de arremessos de um jogador para uma temporada e permite a visualização básica de suas posições de arremesso.
+* **Detalhes de Times (`getTeamDetails.py`):** Apresenta informações gerais sobre uma equipe da NBA, como conferência, divisão e ano de fundação.
+* **Elenco de Times por Temporada (`getTeamRosterSeason.py`):** Lista os jogadores e a comissão técnica de um time para uma temporada específica.
+* **Classificação da Liga (`getLeagueStandings.py`):** Exibe a classificação da NBA (Leste e Oeste) para uma determinada temporada.
+* **Líderes de Estatísticas da Liga (`getLeagueLeaders.py`):** Mostra os jogadores líderes em diversas categorias estatísticas (pontos, rebotes, assistências, etc.).
 
 ## 🛠️ Tecnologias Utilizadas
 
