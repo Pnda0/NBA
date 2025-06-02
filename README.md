@@ -24,6 +24,34 @@ Os seguintes scripts estão disponíveis para realizar diversas análises de dad
 * `getLeagueStandings.py`: Apresenta a classificação da NBA por conferência.
 * `getLeagueLeaders.py`: Mostra os líderes de estatísticas em diversas categorias (pontos, rebotes, assistências, etc.).
 
+📊 Glossário de Estatísticas da NBA
+
+| Abreviação | Significado                                           |
+| :--------- | :---------------------------------------------------- |
+| **GP** | Games Played (Jogos Disputados)                       |
+| **GS** | Games Started (Jogos como Titular)                    |
+| **MIN** | Minutes Played (Minutos Jogados)                      |
+| **FGM** | Field Goals Made (Cestas de Campo Convertidas)        |
+| **FGA** | Field Goals Attempted (Cestas de Campo Tentadas)      |
+| **FG_PCT** | Field Goal Percentage (Percentual de Cestas de Campo) |
+| **FG3M** | 3-Point Field Goals Made (Cestas de 3 Pontos Convertidas) |
+| **FG3A** | 3-Point Field Goals Attempted (Cestas de 3 Pontos Tentadas) |
+| **FG3_PCT**| 3-Point Field Goal Percentage (Percentual de Cestas de 3 Pontos) |
+| **FTM** | Free Throws Made (Lances Livres Convertidos)          |
+| **FTA** | Free Throws Attempted (Lances Livres Tentados)        |
+| **FT_PCT** | Free Throw Percentage (Percentual de Lances Livres)   |
+| **OREB** | Offensive Rebounds (Rebotes Ofensivos)                |
+| **DREB** | Defensive Rebounds (Rebotes Defensivos)               |
+| **REB** | Total Rebounds (Total de Rebotes)                     |
+| **AST** | Assists (Assistências)                                |
+| **STL** | Steals (Roubos de Bola)                               |
+| **BLK** | Blocks (Tocos)                                        |
+| **TOV** | Turnovers (Perdas de Bola)                            |
+| **PF** | Personal Fouls (Faltas Pessoais)                      |
+| **PTS** | Points (Pontos)                                       |
+
+
+
 📂 Estrutura do Projeto
 
 ├── scripts/
