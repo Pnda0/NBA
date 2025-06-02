@@ -3,11 +3,11 @@ from nba_api.stats.endpoints import LeagueLeaders
 from nba_api.stats.library.parameters import SeasonAll 
 
 
-CATEGORIA_ESTATISTICA = 'PTS' 
-TEMPORADA_ALVO = "2024-25" 
-TIPO_TEMPORADA = "Regular Season" 
-MODO_ESTATISTICA = "PerGame"      
-NUM_LIDERES = 10                  
+categoriaEstatistica = 'PTS' 
+temporada = "2024-25" 
+tipoTemporada = "Regular Season" 
+modoEstatistica = "PerGame"      
+numLideres = 10                  
 
 def fetch_league_leaders(stat_category, season, season_type="Regular Season", per_mode="PerGame", top_n=10):
     """
@@ -52,9 +52,9 @@ if __name__ == "__main__":
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', 1000)
     fetch_league_leaders(
-        CATEGORIA_ESTATISTICA,
-        TEMPORADA_ALVO,
-        TIPO_TEMPORADA,
-        MODO_ESTATISTICA,
-        NUM_LIDERES
+        categoriaEstatistica,
+        temporada,
+        tipoTemporada,
+        modoEstatistica,
+        numLideres
     )
