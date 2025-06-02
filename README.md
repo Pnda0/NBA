@@ -45,7 +45,7 @@ Os seguintes scripts estão disponíveis para realizar diversas análises de dad
 | **REB** | Total Rebounds (Total de Rebotes)                     |
 | **AST** | Assists (Assistências)                                |
 | **STL** | Steals (Roubos de Bola)                               |
-| **BLK** | Blocks (Tocos)                                        |
+| **BLK** | Blocks (Bloqueios)                                        |
 | **TOV** | Turnovers (Perdas de Bola)                            |
 | **PF** | Personal Fouls (Faltas Pessoais)                      |
 | **PTS** | Points (Pontos)                                       |
