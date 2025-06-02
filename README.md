@@ -1,6 +1,7 @@
 🏀 Análises de Estatísticas da NBA com Python e nba_api
 
-Este repositório contém scripts em Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA usando a biblioteca `nba_api`. O objetivo é demonstrar como extrair dados valiosos da NBA e realizar análises comuns no universo do basquete, tudo em português.
+Este repositório contém scripts em Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA usando a biblioteca `nba_api`. 
+O objetivo é demonstrar como extrair dados valiosos da NBA e realizar análises comuns no universo do basquete, tudo em português.
 
 🎯 Motivação
 
