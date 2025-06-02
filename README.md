@@ -46,17 +46,17 @@ Siga os passos abaixo para configurar o ambiente e executar os scripts.
 
 **1. Pré-requisitos**
 
-* Python 3.8 ou superior instalado.
-* Git instalado.
-* Recomendado: Familiaridade com ambientes virtuais Python (`venv` ou `conda`).
+    * Python 3.8 ou superior instalado.
+    * Git instalado.
+    * Recomendado: Familiaridade com ambientes virtuais Python (`venv` ou `conda`).
 
 **2. Clone o Repositório**
 
-```bash
-git clone [https://github.com/Pnda0/NBA.git](https://github.com/Pnda0/NBA.git)
+    ```bash
+    git clone [https://github.com/Pnda0/NBA.git](https://github.com/Pnda0/NBA.git)
 
-cd NBA
-```
+    cd NBA
+    ```
 
 Instale as Dependencias
 
@@ -69,56 +69,56 @@ pip ```install -r requirements.txt```
 
 Recomendo um ambiente virtual com o *venv*
 Todos os scripts estão na pasta scripts/src/. Navegue até a raiz do projeto e execute:
+
 📌 Exemplos:
 1. Informações do Jogador
 
-# No topo de getPlayerInfo.py
-jogador = "Nikola Jokic"
+    jogador = "Nikola Jokic"
 
-```python scripts/src/getPlayerInfo.py```
+    ```python scripts/src/getPlayerInfo.py```
 
 2. Estatísticas da Carreira
 
-jogador = "Luka Doncic"
-per_mode = "PerGame"
+    jogador = "Luka Doncic"
+    per_mode = "PerGame"
 
-```python scripts/src/getPlayerCareerStats.py```
+    ```python scripts/src/getPlayerCareerStats.py```
 
 3. Mapa de Arremessos
 
-jogador = "Jayson Tatum"
-temporada = "2024-25"
+    jogador = "Jayson Tatum"
+    temporada = "2024-25"
 
-```python scripts/src/getPlayerShotChart.py```
+    ```python scripts/src/getPlayerShotChart.py```
 
 4. Detalhes do Time
 
-time = "Milwaukee Bucks"
+    time = "Milwaukee Bucks"
 
-```python scripts/src/getTeamDetails.py```
+    ```python scripts/src/getTeamDetails.py```
 
 5. Elenco do Time por Temporada
 
-time = "Golden State Warriors"
-temporada = "2024-25"
+    time = "Golden State Warriors"
+    temporada = "2024-25"
 
-```python scripts/src/getTeamRosterSeason.py```
+    ```python scripts/src/getTeamRosterSeason.py```
 
 6. Classificação da Liga
 
-temporada = 2024  # ou None para a atual
+    temporada = 2024  # ou None para a atual
 
-```python scripts/src/getLeagueStandings.py```
+    ```python scripts/src/getLeagueStandings.py```
 
 7. Líderes de Estatísticas
 
-categoriaEstatistica = 'AST'
-temporada = "2024-25"
-tipoTemporada = "Regular Season"
-modoEstatistica = "PerGame"
-numLideres = 5
+    categoriaEstatistica = 'AST'
+    temporada = "2024-25"
+    tipoTemporada = "Regular Season"
+    modoEstatistica = "PerGame"
+    numLideres = 5
 
-```python scripts/src/getLeagueLeaders.py```
+    ```python scripts/src/getLeagueLeaders.py```
 
 📊 Exemplo de Saída
 
