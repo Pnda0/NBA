@@ -150,11 +150,11 @@ Todos os scripts estão na pasta scripts/src/. Navegue até a raiz do projeto e 
 
 📊 Exemplo de Saída
 
---- Top 3 Líderes em PTS (2023-24, Regular Season, PerGame) ---
-   RANK            PLAYER TEAM_ABBREVIATION   PTS  GP   MIN
-0     1     Luka Doncic               DAL  33.9  70  37.5
-1     2  Shai Gilgeous-Alexander      OKC  30.1  75  34.0
-2     3   Giannis Antetokounmpo       MIL  30.4  73  35.2
+| RANK | PLAYER                  | TEAM_ABBREVIATION | PTS  | GP | MIN  |
+| :--- | :---------------------- | :---------------- | :--- | :- | :--- |
+| 1    | Luka Doncic             | DAL               | 33.9 | 70 | 37.5 |
+| 2    | Shai Gilgeous-Alexander | OKC               | 30.1 | 75 | 34.0 |
+| 3    | Giannis Antetokounmpo   | MIL               | 30.4 | 73 | 35.2 |
 
 📄 Licença
 
