@@ -1,56 +1,72 @@
 🏀 Análises de Estatísticas da NBA com Python e nba_api
 
-Este repositório contém scripts em Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA usando a biblioteca nba_api. O objetivo é demonstrar como extrair dados ricos da NBA e realizar análises comuns no basquete, tudo em português.
+Este repositório contém scripts em Python para buscar, analisar e visualizar estatísticas de jogadores e times da NBA usando a biblioteca `nba_api`. O objetivo é demonstrar como extrair dados valiosos da NBA e realizar análises comuns no universo do basquete, tudo em português.
+
 🎯 Motivação
 
-Este projeto faz parte do meu portfólio de Análise de Dados/BI. Ele foi criado para praticar:
+Este projeto faz parte do meu portfólio de Análise de Dados/BI e foi criado com os seguintes objetivos:
 
-    Coleta de dados via API
-
-    Manipulação com Pandas
-
-    Visualização com Matplotlib/Seaborn
+* Praticar a coleta de dados via API (`nba_api`).
+* Aprimorar a manipulação de dados com a biblioteca Pandas.
+* Desenvolver visualizações de dados informativas com Matplotlib e Seaborn.
+* Compartilhar um recurso prático para outros entusiastas de basquete e análise de dados.
 
 ✨ Funcionalidades
 
-Scripts disponíveis para análise de dados da NBA:
+Os seguintes scripts estão disponíveis para realizar diversas análises de dados da NBA:
 
-- getPlayerInfo.py	Informações biográficas e de carreira de um jogador
-- getPlayerCareerStats.py	Estatísticas por temporada (temporada regular e playoffs)
-- getPlayerShotChart.py	Mapa de arremessos de um jogador
-- getTeamDetails.py	Detalhes gerais de uma equipe da NBA
-- getTeamRosterSeason.py	Elenco e comissão técnica de um time por temporada
-- getLeagueStandings.py	Classificação da NBA por conferência
-- getLeagueLeaders.py	Líderes de estatísticas por categoria (pontos, rebotes, etc.)
+* `getPlayerInfo.py`: Busca informações biográficas e de carreira de um jogador específico.
+* `getPlayerCareerStats.py`: Coleta estatísticas por temporada de um jogador (temporada regular e playoffs).
+* `getPlayerShotChart.py`: Gera o mapa de arremessos de um jogador para uma determinada temporada.
+* `getTeamDetails.py`: Obtém detalhes gerais sobre uma equipe da NBA.
+* `getTeamRosterSeason.py`: Lista o elenco e a comissão técnica de um time em uma temporada específica.
+* `getLeagueStandings.py`: Apresenta a classificação da NBA por conferência.
+* `getLeagueLeaders.py`: Mostra os líderes de estatísticas em diversas categorias (pontos, rebotes, assistências, etc.).
+
+📂 Estrutura do Projeto
+
+├── scripts/
+│ └── src/ # Contém todos os scripts Python executáveis
+├── requirements.txt # Lista de dependências do projeto
+└── README.md # Este arquivo
+
 
 🛠️ Tecnologias Utilizadas
 
-    Python 3.x
-
-    nba_api
-
-    pandas
-
-    matplotlib, seaborn
+* Python 3.x
+* `nba_api`
+* `pandas`
+* `matplotlib`
+* `seaborn`
 
 ⚙️ Instalação
-1. Pré-requisitos
 
-    Python 3.8+
+Siga os passos abaixo para configurar o ambiente e executar os scripts.
 
-    Git instalado
+**1. Pré-requisitos**
 
-2. Clone o repositório
+* Python 3.8 ou superior instalado.
+* Git instalado.
+* Recomendado: Familiaridade com ambientes virtuais Python (`venv` ou `conda`).
 
-git clone https://github.com/Pnda0/NBA.git
+**2. Clone o Repositório**
+
+```bash
+git clone [https://github.com/Pnda0/NBA.git](https://github.com/Pnda0/NBA.git)
+
 cd NBA
+```
 
-3. Instale as dependências
+Instale as Dependencias
 
-pip install -r requirements.txt
+Instale todas as bibliotecas necessárias listadas no arquivo requirements.txt:
+
+pip ```install -r requirements.txt```
+
 
 🚀 Como Usar
 
+Recomendo um ambiente virtual com o *venv*
 Todos os scripts estão na pasta scripts/src/. Navegue até a raiz do projeto e execute:
 📌 Exemplos:
 1. Informações do Jogador
@@ -58,40 +74,40 @@ Todos os scripts estão na pasta scripts/src/. Navegue até a raiz do projeto e 
 # No topo de getPlayerInfo.py
 jogador = "Nikola Jokic"
 
-python scripts/src/getPlayerInfo.py
+```python scripts/src/getPlayerInfo.py```
 
 2. Estatísticas da Carreira
 
 jogador = "Luka Doncic"
 per_mode = "PerGame"
 
-python scripts/src/getPlayerCareerStats.py
+```python scripts/src/getPlayerCareerStats.py```
 
 3. Mapa de Arremessos
 
 jogador = "Jayson Tatum"
 temporada = "2024-25"
 
-python scripts/src/getPlayerShotChart.py
+```python scripts/src/getPlayerShotChart.py```
 
 4. Detalhes do Time
 
 time = "Milwaukee Bucks"
 
-python scripts/src/getTeamDetails.py
+```python scripts/src/getTeamDetails.py```
 
 5. Elenco do Time por Temporada
 
 time = "Golden State Warriors"
 temporada = "2024-25"
 
-python scripts/src/getTeamRosterSeason.py
+```python scripts/src/getTeamRosterSeason.py```
 
 6. Classificação da Liga
 
 temporada = 2024  # ou None para a atual
 
-python scripts/src/getLeagueStandings.py
+```python scripts/src/getLeagueStandings.py```
 
 7. Líderes de Estatísticas
 
@@ -101,7 +117,7 @@ tipoTemporada = "Regular Season"
 modoEstatistica = "PerGame"
 numLideres = 5
 
-python scripts/src/getLeagueLeaders.py
+```python scripts/src/getLeagueLeaders.py```
 
 📊 Exemplo de Saída
 
@@ -113,12 +129,12 @@ python scripts/src/getLeagueLeaders.py
 
 📄 Licença
 
-```MIT License
+MIT License
 
-Copyright (c) 2025 Alan Ribeiro/ 
+Copyright (c) 2025 Alan Ribeiro de Carvalho
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the “Software”), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -127,11 +143,11 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. ```
+SOFTWARE.
 
