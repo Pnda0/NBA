@@ -14,14 +14,15 @@ Este projeto faz parte do meu portfólio de Análise de Dados/BI. Ele foi criado
 ✨ Funcionalidades
 
 Scripts disponíveis para análise de dados da NBA:
-Script	Descrição
-getPlayerInfo.py	Informações biográficas e de carreira de um jogador
-getPlayerCareerStats.py	Estatísticas por temporada (temporada regular e playoffs)
-getPlayerShotChart.py	Mapa de arremessos de um jogador
-getTeamDetails.py	Detalhes gerais de uma equipe da NBA
-getTeamRosterSeason.py	Elenco e comissão técnica de um time por temporada
-getLeagueStandings.py	Classificação da NBA por conferência
-getLeagueLeaders.py	Líderes de estatísticas por categoria (pontos, rebotes, etc.)
+
+- getPlayerInfo.py	Informações biográficas e de carreira de um jogador
+- getPlayerCareerStats.py	Estatísticas por temporada (temporada regular e playoffs)
+- getPlayerShotChart.py	Mapa de arremessos de um jogador
+- getTeamDetails.py	Detalhes gerais de uma equipe da NBA
+- getTeamRosterSeason.py	Elenco e comissão técnica de um time por temporada
+- getLeagueStandings.py	Classificação da NBA por conferência
+- getLeagueLeaders.py	Líderes de estatísticas por categoria (pontos, rebotes, etc.)
+
 🛠️ Tecnologias Utilizadas
 
     Python 3.x
